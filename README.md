@@ -181,8 +181,8 @@ To get started, follow these steps:
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse.git
-   cd AiML-ethiopian-medical-biz-datawarehouse
+   git clone https://github.com/EstifanosTeklay/MedicalDatawarehouse.git
+   cd MedicalDatawarehouse
    ```
 
 2. **Create a virtual environment and activate it**:
@@ -242,6 +242,3 @@ Contributions are welcome. Please follow these steps:
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
-
-Special thanks to the contributors and the open-source community for their support and resources.
