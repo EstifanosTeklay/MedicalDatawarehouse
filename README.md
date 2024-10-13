@@ -36,7 +36,7 @@ Python, DBT, SQL, ETL, PostgreSQL, FastAPI, Pandas, Pytest, SQLAlchemy, YOLOv5 P
 
 Utilize the Telegram API or custom scripts to extract data from public Telegram channels related to Ethiopian medical businesses. Key channels include:
 
-![scraped](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/blob/main/assets/scraped_data.png)
+![scraped](https://github.com/EstifanosTeklay/MedicalDatawarehouse/blob/main/assets/scraped_data.png)
 
 ### Image Scraping
 
@@ -45,7 +45,7 @@ Collect images from specified Telegram channels for object detection:
 - [Chemed Telegram Channel](https://t.me/lobelia4cosmetics)
 - [Lobelia for Cosmetics](https://t.me/lobelia4cosmetics)
 
-For more details, see the [data_scraping_and_cleaning.ipynb](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/tree/main/notebooks/data_scraping_and_cleaning.ipynb) notebook.
+For more details, see the [data_scraping_and_cleaning.ipynb](https://github.com/EstifanosTeklay/MedicalDatawarehouse/tree/main/notebooks/data_scraping_and_cleaning.ipynb) notebook.
 
 ## Data Cleaning and Transformation
 
@@ -66,19 +66,19 @@ dbt init dbt_med
 dbt run
 ```
 
-![dbt](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/blob/main/assets/dbt%20Docs_models.jpg)
+![dbt](https://github.com/EstifanosTeklay/MedicalDatawarehouse/blob/main/assets/dbt%20Docs_models.jpg)
 
 ### Storing Cleaned Data
 
 Store cleaned data in a database.
 
-![dbt_db](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/blob/main/assets/dbt%20Docs_database.jpg)
+![dbt_db](https://github.com/EstifanosTeklay/MedicalDatawarehouse/blob/main/assets/dbt%20Docs_database.jpg)
 
 ### Fact Table in PostgreSQL Database
 
-![dbt_db](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/blob/main/assets/fact_table.png)
+![dbt_db](https://github.com/EstifanosTeklay/MedicalDatawarehouse/blob/main/assets/fact_table.png)
 
-For more details, see the [data_scraping_and_cleaning.ipynb](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/tree/main/notebooks/data_scraping_and_cleaning.ipynb) notebook.
+For more details, see the [data_scraping_and_cleaning.ipynb](https://github.com/EstifanosTeklay/MedicalDatawarehouse/tree/main/notebooks/data_scraping_and_cleaning.ipynb) notebook.
 
 ## Object Detection Using YOLO
 
@@ -110,9 +110,9 @@ pip install -r requirements.txt
 - Extract data such as bounding box coordinates, confidence scores, and class labels.
 - Store detection data in a database table.
 
-![yolo](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/blob/main/assets/table_yolo_detection.png)
+![yolo](https://github.com/EstifanosTeklay/MedicalDatawarehouse/blob/main/assets/table_yolo_detection.png)
 
-For more details, see the [yolo.ipynb](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/tree/main/notebooks/yolo.ipynb) notebook.
+For more details, see the [yolo.ipynb](https://github.com/EstifanosTeklay/MedicalDatawarehouse/tree/main/notebooks/yolo.ipynb) notebook.
 
 ## Exposing the Collected Data Using FastAPI
 
@@ -157,22 +157,22 @@ my_project/
 
 - In `main.py`, define the API endpoints using FastAPI.
 
-![crud](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/blob/main/assets/fastapi_crud.png)
+![crud](https://github.com/EstifanosTeklay/MedicalDatawarehouse/blob/main/assets/fastapi_crud.png)
 
 ### Get All Telegram Data
 
-![get](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/blob/main/assets/get_all_telegram_data.png)
-![get](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/blob/main/assets/get_all_telegram_data2.png)
+![get](https://github.com/EstifanosTeklay/MedicalDatawarehouse/blob/main/assets/get_all_telegram_data.png)
+![get](https://github.com/EstifanosTeklay/MedicalDatawarehouse/blob/main/assets/get_all_telegram_data2.png)
 
 ### Get All YOLO Detection Results
 
-![getyolo](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/blob/main/assets/get_all_yolo_result.png)
+![getyolo](https://github.com/EstifanosTeklay/MedicalDatawarehouse/blob/main/assets/get_all_yolo_result.png)
 
 ## Postman Collection
 
 You can use the Postman API collection found in the link below:
 
-[Postman collection link](https://github.com/Daniel-Andarge/AiML-ethiopian-medical-biz-datawarehouse/blob/main/fastAPI/postman_collection/medicalAPI.postman_collection.json)
+[Postman collection link](https://github.com/EstifanosTeklay/MedicalDatawarehouse/blob/main/fastAPI/postman_collection/medicalAPI.postman_collection.json)
 
 ## Installation
 
